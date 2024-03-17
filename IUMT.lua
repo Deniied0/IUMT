@@ -76,3 +76,9 @@ while task.wait(5) do
         end
     end
 end
+
+game:BindToClose(function()
+    local data = loggedData .. '\nGAME CLOSING'
+    
+    -- send the data however you want for archiving until the user(s) data is needed and grep'd
+end)
