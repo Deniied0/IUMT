@@ -29,6 +29,7 @@ local persistGui  = Instance.new'ScreenGui'
 local loggerEvent = Instance.new'RemoteFunction'
 
 persistGui.ResetOnSpawn = false
+persistGui.Name         = '\1'
 
 IUMTLocal.Parent   = persistGui
 
